@@ -16,6 +16,7 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      # Memakai Gradle 8.9 langsung, jadi tidak butuh gradlew / gradle-wrapper.jar
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: 8.9
